@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вечная память - Интернет-кладбище</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Вечная память</h1>
+        <p>Виртуальное кладбище для тех, кого мы помним</p>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>О проекте</h2>
+            <p>Наш сайт позволяет создавать памятные страницы для ушедших близких. Оставляйте слова памяти, загружайте фото и делитесь воспоминаниями.</p>
+        </section>
+
+        <section class="create-memorial">
+            <h2>Создать памятную страницу</h2>
+            <p>Добавьте имя, фото и историю близкого человека.</p>
+            <button onclick="createMemorial()">Создать</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Вечная память | Контакты: <a href="mailto:info@memorial.ru">info@memorial.ru</a></p>
+    </footer>
+
+    <script>
+        function createMemorial() {
+            alert("Функция создания страницы скоро будет доступна.");
+        }
+    </script>
+</body>
+</html>  
